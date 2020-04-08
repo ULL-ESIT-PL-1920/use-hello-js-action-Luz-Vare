@@ -1,0 +1,9 @@
+name: Optional action
+on: [push]
+
+jobs:
+  time_job:
+    runs-on: ubuntu-latest
+    name: A job to count milliseconds
+    steps:
+      - uses: Luz-Vare/optional-template
